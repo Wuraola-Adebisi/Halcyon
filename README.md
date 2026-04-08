@@ -1,6 +1,6 @@
 # Halcyon Studio
 
-A premium fictional architecture and interior design studio website built entirely with HTML and CSS. No frameworks. No JavaScript. Just considered design and clean code.
+A premium fictional architecture and interior design studio website built entirely with HTML and CSS.
 
 ![Halcyon Studio Preview](https://res.cloudinary.com/dnkfg07ov/image/upload/v1773921939/download_34_nvvsxp.jpg)
 
@@ -56,9 +56,8 @@ This is my first multi-page project and my most ambitious to date. It pushed me 
 ## What I Learned
 This project taught me two things above everything else — patience and standards.
 
-Patience, because multi-page sites require you to think systemically. A change in one place ripples across ten files. A design decision made on page one has consequences on page six. You cannot rush that kind of thinking.
+Patience, because multi-page sites require you to think systemically. A design decision made on page one has consequences on page six. You cannot rush that kind of thinking.
 
-Standards because working with client-supplied images — fixed resolution, varied proportions, real constraints — forced me to find CSS solutions that respected the assets rather than broke them. The easy answer is always to stretch and crop. The right answer takes longer.
- assets rather than broke them. The easy answer is always to stretch and crop. The right answer takes longer.
+Standards because working with client-supplied images — fixed resolution, varied proportions, real constraints — forced me to find CSS solutions that respected the assets rather than broke them.
 
 This is the project I am most proud of.
