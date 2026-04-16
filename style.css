@@ -28,7 +28,7 @@ body {
   padding-top: var(--nav-height);
 }
 
-/* ── Typography ── */
+/* â”€â”€ Typography â”€â”€ */
 h1, h2, h3, h4 {
   font-family: 'Cormorant Garamond', serif;
   font-weight: 300;
@@ -41,7 +41,7 @@ p {
   color: var(--warm-mid);
 }
 
-/* ── Header ── */
+/* â”€â”€ Header â”€â”€ */
 header {
   position: fixed;
   top: 0;
@@ -94,7 +94,16 @@ nav ul li a.active {
   padding-bottom: 2px;
 }
 
-/* ── Footer ── */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid rgba(196, 99, 58, 0.25);
+  outline-offset: 3px;
+}
+
+/* â”€â”€ Footer â”€â”€ */
 footer {
   background: var(--charcoal);
   padding: 64px 80px;
@@ -140,7 +149,7 @@ footer .footer-tagline {
   font-weight: 300;
 }
 
-/* ── Buttons ── */
+/* â”€â”€ Buttons â”€â”€ */
 .btn-primary {
   display: inline-block;
   padding: 14px 40px;
@@ -182,7 +191,7 @@ footer .footer-tagline {
   color: var(--white);
 }
 
-/* ── Section Labels ── */
+/* â”€â”€ Section Labels â”€â”€ */
 .section-label {
   font-family: 'Inter', sans-serif;
   font-size: 0.7rem;
@@ -194,7 +203,7 @@ footer .footer-tagline {
   display: block;
 }
 
-/* ── Page Navigation ── */
+/* â”€â”€ Page Navigation â”€â”€ */
 .page-navigation {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -271,9 +280,9 @@ footer .footer-tagline {
 }
 
 
-/* ══════════════════════════════════════
-   INDEX.HTML — HOME PAGE
-══════════════════════════════════════ */
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+   INDEX.HTML â€” HOME PAGE
+â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 
 #hero {
   display: grid;
@@ -388,6 +397,12 @@ footer .footer-tagline {
   gap: 32px;
 }
 
+.work-card-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
 .work-card {
   cursor: pointer;
 }
@@ -434,7 +449,7 @@ footer .footer-tagline {
 }
 
 .work-card-meta span:first-child::after {
-  content: '·';
+  content: '\00B7';
   margin-left: 16px;
 }
 
@@ -554,9 +569,9 @@ footer .footer-tagline {
 }
 
 
-/* ══════════════════════════════════════
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
    WORK.HTML
-══════════════════════════════════════ */
+â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 
 #work-hero {
   padding: 80px;
@@ -755,7 +770,7 @@ a.project-card {
 }
 
 .project-view-link::after {
-  content: '→';
+  content: '\2192';
   transition: transform 0.2s;
 }
 
@@ -791,13 +806,13 @@ a.project-card {
 }
 
 
-/* ══════════════════════════════════════
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
    PROJECT PAGES
    (villa-strand.html, hotel-maren.html,
    foss-cultural-centre.html,
    atelier-bergmann.html,
    residence-lund.html, norden-club.html)
-══════════════════════════════════════ */
+â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 
 .project-hero {
   display: grid;
@@ -856,6 +871,14 @@ a.project-card {
 }
 
 .project-hero-location {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--warm-mid);
+}
+
+.project-hero-sub {
   font-family: 'Inter', sans-serif;
   font-size: 0.8rem;
   letter-spacing: 2px;
@@ -1013,9 +1036,9 @@ a.project-card {
 }
 
 
-/* ══════════════════════════════════════
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
    ABOUT.HTML
-══════════════════════════════════════ */
+â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 
 #about-hero {
   display: grid;
@@ -1283,9 +1306,9 @@ a.project-card {
 }
 
 
-/* ══════════════════════════════════════
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
    CONTACT.HTML
-══════════════════════════════════════ */
+â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 
 #contact-hero {
   padding: 100px 80px 80px;
@@ -1469,9 +1492,9 @@ a.project-card {
 }
 
 
-/* ══════════════════════════════════════
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
    ALL MEDIA QUERIES
-══════════════════════════════════════ */
+â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 
 @media (max-width: 1024px) {
   /* Home */
@@ -1557,3 +1580,4 @@ a.project-card {
   nav ul { gap: 24px; }
   nav ul li:not(:first-child):not(:last-child) { display: none; }
 }
+
