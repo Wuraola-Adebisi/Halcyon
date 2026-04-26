@@ -4,7 +4,6 @@ A premium fictional architecture and interior design studio website built entire
 
 ![Halcyon Studio Preview](https://res.cloudinary.com/dnkfg07ov/image/upload/v1773921939/download_34_nvvsxp.jpg)
 
-## 🔗 Live Site
 [View Live](https://wuraola-adebisi.github.io/Halcyon/)
 
 ## About
