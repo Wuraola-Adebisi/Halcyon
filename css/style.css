@@ -103,7 +103,6 @@ textarea:focus-visible {
   outline-offset: 3px;
 }
 
-/* â”€â”€ Footer â”€â”€ */
 footer {
   background: var(--charcoal);
   padding: 64px 80px;
@@ -149,7 +148,6 @@ footer .footer-tagline {
   font-weight: 300;
 }
 
-/* â”€â”€ Buttons â”€â”€ */
 .btn-primary {
   display: inline-block;
   padding: 14px 40px;
@@ -191,7 +189,6 @@ footer .footer-tagline {
   color: var(--white);
 }
 
-/* â”€â”€ Section Labels â”€â”€ */
 .section-label {
   font-family: 'Inter', sans-serif;
   font-size: 0.7rem;
@@ -203,7 +200,6 @@ footer .footer-tagline {
   display: block;
 }
 
-/* â”€â”€ Page Navigation â”€â”€ */
 .page-navigation {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -279,10 +275,6 @@ footer .footer-tagline {
   text-align: right;
 }
 
-
-/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
-   INDEX.HTML â€” HOME PAGE
-â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 
 #hero {
   display: grid;
@@ -569,10 +561,6 @@ footer .footer-tagline {
 }
 
 
-/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
-   WORK.HTML
-â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
-
 #work-hero {
   padding: 80px;
   background: var(--off-white);
@@ -622,6 +610,11 @@ footer .footer-tagline {
 }
 
 .filter-btn {
+  appearance: none;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid transparent;
+  cursor: pointer;
   font-family: 'Inter', sans-serif;
   font-size: 0.75rem;
   letter-spacing: 2px;
@@ -629,7 +622,6 @@ footer .footer-tagline {
   color: var(--warm-mid);
   text-decoration: none;
   padding-bottom: 4px;
-  border-bottom: 1px solid transparent;
   transition: color 0.2s, border-color 0.2s;
 }
 
@@ -640,6 +632,17 @@ footer .footer-tagline {
 .filter-btn.active {
   color: var(--charcoal);
   border-bottom-color: var(--brass);
+}
+
+.project-card.is-hidden {
+  display: none;
+}
+
+.projects-empty {
+  grid-column: 1 / -1;
+  padding: 80px;
+  background: var(--white);
+  text-align: center;
 }
 
 #projects-grid {
@@ -805,14 +808,6 @@ a.project-card {
   max-width: 400px;
 }
 
-
-/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
-   PROJECT PAGES
-   (villa-strand.html, hotel-maren.html,
-   foss-cultural-centre.html,
-   atelier-bergmann.html,
-   residence-lund.html, norden-club.html)
-â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 
 .project-hero {
   display: grid;
@@ -1035,10 +1030,6 @@ a.project-card {
   transform: scale(1.03);
 }
 
-
-/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
-   ABOUT.HTML
-â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 
 #about-hero {
   display: grid;
@@ -1306,10 +1297,6 @@ a.project-card {
 }
 
 
-/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
-   CONTACT.HTML
-â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
-
 #contact-hero {
   padding: 100px 80px 80px;
   background: var(--off-white);
@@ -1491,10 +1478,6 @@ a.project-card {
   font-size: 0.8rem;
 }
 
-
-/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
-   ALL MEDIA QUERIES
-â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 
 @media (max-width: 1024px) {
   /* Home */
