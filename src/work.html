@@ -4,14 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Halcyon Studio &mdash; Selected Work</title>
-  <link rel="stylesheet" href="../css/style.css">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <a href="../index.html" class="logo">Halcyon</a>
+    <a href="index.html" class="logo">Halcyon</a>
     <nav>
       <ul>
-        <li><a href="../index.html">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="work.html" class="active">Work</a></li>
         <li><a href="about.html">Studio</a></li>
         <li><a href="contact.html">Contact</a></li>
@@ -31,16 +32,16 @@
     <section class="filter-row" aria-label="Project sectors">
       <span class="filter-label">Sectors</span>
       <div class="filter-options">
-        <span class="filter-btn active">All</span>
-        <span class="filter-btn">Residential</span>
-        <span class="filter-btn">Hospitality</span>
-        <span class="filter-btn">Cultural</span>
-        <span class="filter-btn">Commercial</span>
+        <button type="button" class="filter-btn active" data-filter="all" aria-pressed="true">All</button>
+        <button type="button" class="filter-btn" data-filter="residential" aria-pressed="false">Residential</button>
+        <button type="button" class="filter-btn" data-filter="hospitality" aria-pressed="false">Hospitality</button>
+        <button type="button" class="filter-btn" data-filter="cultural" aria-pressed="false">Cultural</button>
+        <button type="button" class="filter-btn" data-filter="commercial" aria-pressed="false">Commercial</button>
       </div>
     </section>
 
     <section id="projects-grid">
-      <a href="villa-strand.html" class="project-card">
+      <a href="villa-strand.html" class="project-card" data-tags="residential">
         <div class="project-image">
           <img src="https://res.cloudinary.com/dnkfg07ov/image/upload/v1773846470/Modern_Mallorca_Villa__Photographing_a_luxury_home_kuztwz.jpg" alt="Villa Strand">
           <div class="project-overlay">
@@ -58,7 +59,7 @@
         </div>
       </a>
 
-      <a href="hotel-maren.html" class="project-card">
+      <a href="hotel-maren.html" class="project-card" data-tags="hospitality">
         <div class="project-image">
           <img src="https://res.cloudinary.com/dnkfg07ov/image/upload/v1773833360/download_4_tq036s.jpg" alt="Hotel Maren">
           <div class="project-overlay">
@@ -76,7 +77,7 @@
         </div>
       </a>
 
-      <a href="foss-cultural-centre.html" class="project-card">
+      <a href="foss-cultural-centre.html" class="project-card" data-tags="cultural">
         <div class="project-image">
           <img src="https://res.cloudinary.com/dnkfg07ov/image/upload/v1773838575/ARQ_DIEGO_KURILO_HOUSE_BETON_ksbgzw.jpg" alt="Foss Cultural Centre">
           <div class="project-overlay">
@@ -94,7 +95,7 @@
         </div>
       </a>
 
-      <a href="atelier-bergmann.html" class="project-card">
+      <a href="atelier-bergmann.html" class="project-card" data-tags="commercial">
         <div class="project-image">
           <img src="https://res.cloudinary.com/dnkfg07ov/image/upload/v1773834615/download_29_tiaj1n.jpg" alt="Atelier Bergmann">
           <div class="project-overlay">
@@ -112,7 +113,7 @@
         </div>
       </a>
 
-      <a href="residence-lund.html" class="project-card">
+      <a href="residence-lund.html" class="project-card" data-tags="residential">
         <div class="project-image">
           <img src="https://res.cloudinary.com/dnkfg07ov/image/upload/v1773919966/download_28_k0eu8o.jpg" alt="Residence Lund">
           <div class="project-overlay">
@@ -130,7 +131,7 @@
         </div>
       </a>
 
-      <a href="norden-club.html" class="project-card">
+      <a href="norden-club.html" class="project-card" data-tags="hospitality">
         <div class="project-image">
           <img src="https://res.cloudinary.com/dnkfg07ov/image/upload/v1773849037/download_66_xo2kkt.jpg" alt="The Norden Club">
           <div class="project-overlay">
@@ -147,6 +148,7 @@
           <span class="project-view-link">View Project</span>
         </div>
       </a>
+      <p class="projects-empty" hidden>No projects found for this sector.</p>
     </section>
 
     <section id="work-cta">
@@ -185,5 +187,6 @@
     <p class="footer-copy">&copy; 2026 Halcyon Studio. All rights reserved.</p>
     <p class="footer-tagline">Space, considered.</p>
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>
