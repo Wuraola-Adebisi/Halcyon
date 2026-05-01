@@ -4,8 +4,6 @@
 ## About
 Halcyon Studio is a static portfolio website for a fictional architecture and interior design studio. The project was built as a front-end practice piece, with a focus on refined visual design, multi-page navigation, responsive layouts, and portfolio-ready presentation.
 
-This is my first multi-page project and my most ambitious to date. It pushed me to think beyond single sections and consider how design, navigation, and user experience flow across an entire site. It also taught me patience — particularly around working with client-supplied images and finding CSS solutions that respect the integrity of the assets rather than fighting them.
-
 ## Pages
 - **Home** — Hero image grid, selected work, services, philosophy, press strip
 - **Work** — Full project grid with filter row and individual project links
