@@ -28,7 +28,6 @@ body {
   padding-top: var(--nav-height);
 }
 
-/* â”€â”€ Typography â”€â”€ */
 h1, h2, h3, h4 {
   font-family: 'Cormorant Garamond', serif;
   font-weight: 300;
@@ -41,7 +40,6 @@ p {
   color: var(--warm-mid);
 }
 
-/* â”€â”€ Header â”€â”€ */
 header {
   position: fixed;
   top: 0;
