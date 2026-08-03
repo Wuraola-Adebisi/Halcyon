@@ -2,7 +2,7 @@
 [View Live](https://wuraola-adebisi.github.io/Halcyon/)
 
 ## About
-Halcyon Studio is a static portfolio website for a fictional architecture and interior design studio. The project was built as a front-end practice piece, with a focus on refined visual design, multi-page navigation, responsive layouts, and portfolio-ready presentation.
+Halcyon Studio is a portfolio website for an architecture and interior design studio. The project was built with a focus on refined visual design, multi-page navigation, responsive layouts, and portfolio-ready presentation.
 
 ## Pages
 - **Home** — Hero image grid, selected work, services, philosophy, press strip
