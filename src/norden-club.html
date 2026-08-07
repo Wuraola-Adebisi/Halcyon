@@ -4,13 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Halcyon Studio &mdash; The Norden Club</title>
+  <meta name="description" content="The Norden Club is a hospitality project by Halcyon Studio in Copenhagen, Denmark, a members club designed to feel unlike one.">
+  <meta property="og:title" content="Halcyon Studio &mdash; The Norden Club">
+  <meta property="og:description" content="The Norden Club is a hospitality project by Halcyon Studio in Copenhagen, Denmark, a members club designed to feel unlike one.">
+  <meta property="og:image" content="https://res.cloudinary.com/dnkfg07ov/image/upload/v1773849037/download_66_xo2kkt.jpg">
+  <meta property="og:type" content="website">
    <link rel="icon" href="../favicon.svg" type="image/svg+xml">
  <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
   <header>
     <a href="../index.html" class="logo">Halcyon</a>
-    <nav>
+    <nav id="site-nav">
       <ul>
         <li><a href="../index.html">Home</a></li>
         <li><a href="work.html" class="active">Work</a></li>
@@ -18,6 +23,9 @@
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
+    <button type="button" class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="site-nav">
+      <span></span><span></span><span></span>
+    </button>
   </header>
 
   <main>
@@ -86,18 +94,18 @@
 
     <section class="project-gallery">
       <div class="gallery-large">
-        <img src="https://res.cloudinary.com/dnkfg07ov/image/upload/v1773915460/download_3_wvokhq.jpg" alt="The Norden Club interior">
+        <img src="https://res.cloudinary.com/dnkfg07ov/image/upload/v1773915460/download_3_wvokhq.jpg" alt="The Norden Club interior" loading="lazy">
       </div>
       <div class="gallery-two-col">
         <div class="gallery-item">
-          <img src="https://res.cloudinary.com/dnkfg07ov/image/upload/v1773849038/download_65_uidsew.jpg" alt="The Norden Club bar">
+          <img src="https://res.cloudinary.com/dnkfg07ov/image/upload/v1773849038/download_65_uidsew.jpg" alt="The Norden Club bar" loading="lazy">
         </div>
         <div class="gallery-item">
-          <img src="https://res.cloudinary.com/dnkfg07ov/image/upload/v1773849039/Total_Fusion_Platinum_by_ACME_and_Cavcorp_-_Issue_14_Feature_-_The_Local_Project_-_The_Local_Project_1_me6ixx.jpg" alt="The Norden Club library">
+          <img src="https://res.cloudinary.com/dnkfg07ov/image/upload/v1773849039/Total_Fusion_Platinum_by_ACME_and_Cavcorp_-_Issue_14_Feature_-_The_Local_Project_-_The_Local_Project_1_me6ixx.jpg" alt="The Norden Club library" loading="lazy">
         </div>
       </div>
       <div class="gallery-large">
-        <img src="https://res.cloudinary.com/dnkfg07ov/image/upload/v1773849037/download_66_xo2kkt.jpg" alt="The Norden Club dining">
+        <img src="https://res.cloudinary.com/dnkfg07ov/image/upload/v1773849037/download_66_xo2kkt.jpg" alt="The Norden Club dining" loading="lazy">
       </div>
     </section>
 
@@ -131,5 +139,6 @@
     <p class="footer-copy">&copy; 2026 Halcyon Studio. All rights reserved.</p>
     <p class="footer-tagline">Space, considered.</p>
   </footer>
+<script src="../script.js"></script>
 </body>
 </html>
