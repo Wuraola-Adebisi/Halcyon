@@ -28,6 +28,10 @@ body {
   padding-top: var(--nav-height);
 }
 
+body.menu-open {
+  overflow: hidden;
+}
+
 h1,
 h2,
 h3,
@@ -1752,6 +1756,8 @@ a.project-card {
     border-top: 1px solid var(--stone);
     align-items: center;
     justify-content: center;
+    z-index: 999;
+    overflow-y: auto;
   }
 
   header nav.is-open ul {

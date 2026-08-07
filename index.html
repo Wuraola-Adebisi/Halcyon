@@ -11,7 +11,7 @@
 <body>
   <header>
     <a href="index.html" class="logo">Halcyon</a>
-    <nav>
+    <nav id="site-nav">
       <ul>
         <li><a href="index.html" class="active">Home</a></li>
         <li><a href="src/work.html">Work</a></li>
@@ -19,6 +19,15 @@
         <li><a href="src/contact.html">Contact</a></li>
       </ul>
     </nav>
+    <button
+      type="button"
+      class="nav-toggle"
+      aria-label="Toggle menu"
+      aria-expanded="false"
+      aria-controls="site-nav"
+    >
+      <span></span><span></span><span></span>
+    </button>
   </header>
 
   <main>
@@ -167,5 +176,6 @@
     <p class="footer-copy">&copy; 2026 Halcyon Studio. All rights reserved.</p>
     <p class="footer-tagline">Space, considered.</p>
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>
