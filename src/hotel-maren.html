@@ -4,13 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Halcyon Studio &mdash; Hotel Maren</title>
+  <meta name="description" content="Hotel Maren is a hospitality project by Halcyon Studio in Bergen, Norway, designed around restraint and considered materiality.">
+  <meta property="og:title" content="Halcyon Studio &mdash; Hotel Maren">
+  <meta property="og:description" content="Hotel Maren is a hospitality project by Halcyon Studio in Bergen, Norway, designed around restraint and considered materiality.">
+  <meta property="og:image" content="https://res.cloudinary.com/dnkfg07ov/image/upload/v1773833360/download_4_tq036s.jpg">
+  <meta property="og:type" content="website">
     <link rel="icon" href="../favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
   <header>
     <a href="../index.html" class="logo">Halcyon</a>
-    <nav>
+    <nav id="site-nav">
       <ul>
         <li><a href="../index.html">Home</a></li>
         <li><a href="work.html" class="active">Work</a></li>
@@ -18,6 +23,9 @@
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
+    <button type="button" class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="site-nav">
+      <span></span><span></span><span></span>
+    </button>
   </header>
 
   <main>
@@ -84,18 +92,18 @@
 
     <section class="project-gallery">
       <div class="gallery-large">
-        <img src="https://res.cloudinary.com/dnkfg07ov/image/upload/v1773833359/The_Concrete_House_in_Thailand_by_Rabani_Design_cw3ziw.jpg" alt="Hotel Maren interior">
+        <img src="https://res.cloudinary.com/dnkfg07ov/image/upload/v1773833359/The_Concrete_House_in_Thailand_by_Rabani_Design_cw3ziw.jpg" alt="Hotel Maren interior" loading="lazy">
       </div>
       <div class="gallery-two-col">
         <div class="gallery-item">
-          <img src="https://res.cloudinary.com/dnkfg07ov/image/upload/v1773917612/download_16_l7abin.jpg" alt="Hotel Maren room">
+          <img src="https://res.cloudinary.com/dnkfg07ov/image/upload/v1773917612/download_16_l7abin.jpg" alt="Hotel Maren room" loading="lazy">
         </div>
         <div class="gallery-item">
-          <img src="https://res.cloudinary.com/dnkfg07ov/image/upload/v1773917605/download_17_ry5lht.jpg" alt="Hotel Maren detail">
+          <img src="https://res.cloudinary.com/dnkfg07ov/image/upload/v1773917605/download_17_ry5lht.jpg" alt="Hotel Maren detail" loading="lazy">
         </div>
       </div>
       <div class="gallery-large">
-        <img src="https://res.cloudinary.com/dnkfg07ov/image/upload/v1773918136/download_21_i3z6j4.jpg" alt="Hotel Maren exterior">
+        <img src="https://res.cloudinary.com/dnkfg07ov/image/upload/v1773918136/download_21_i3z6j4.jpg" alt="Hotel Maren exterior" loading="lazy">
       </div>
     </section>
 
@@ -129,5 +137,6 @@
     <p class="footer-copy">&copy; 2026 Halcyon Studio. All rights reserved.</p>
     <p class="footer-tagline">Space, considered.</p>
   </footer>
+<script src="../script.js"></script>
 </body>
 </html>
