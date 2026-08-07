@@ -4,13 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Halcyon Studio &mdash; Foss Cultural Centre</title>
+  <meta name="description" content="Foss Cultural Centre is a civic building by Halcyon Studio in Oslo, Norway, with architecture designed to earn its place in the city.">
+  <meta property="og:title" content="Halcyon Studio &mdash; Foss Cultural Centre">
+  <meta property="og:description" content="Foss Cultural Centre is a civic building by Halcyon Studio in Oslo, Norway, with architecture designed to earn its place in the city.">
+  <meta property="og:image" content="https://res.cloudinary.com/dnkfg07ov/image/upload/v1773838575/ARQ_DIEGO_KURILO_HOUSE_BETON_ksbgzw.jpg">
+  <meta property="og:type" content="website">
     <link rel="icon" href="../favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
   <header>
     <a href="../index.html" class="logo">Halcyon</a>
-    <nav>
+    <nav id="site-nav">
       <ul>
         <li><a href="../index.html">Home</a></li>
         <li><a href="work.html" class="active">Work</a></li>
@@ -18,6 +23,9 @@
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
+    <button type="button" class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="site-nav">
+      <span></span><span></span><span></span>
+    </button>
   </header>
 
   <main>
@@ -84,18 +92,18 @@
 
     <section class="project-gallery">
       <div class="gallery-large">
-        <img src="https://res.cloudinary.com/dnkfg07ov/image/upload/v1773919256/The_Racha_Room_-_The_Lab_Saigon_a0h1gp.jpg" alt="Foss Cultural Centre interior">
+        <img src="https://res.cloudinary.com/dnkfg07ov/image/upload/v1773919256/The_Racha_Room_-_The_Lab_Saigon_a0h1gp.jpg" alt="Foss Cultural Centre interior" loading="lazy">
       </div>
       <div class="gallery-two-col">
         <div class="gallery-item">
-          <img src="https://res.cloudinary.com/dnkfg07ov/image/upload/v1773917779/spectacular_bespoke_chandelier_in_a_restaurant_hzyo3z.jpg" alt="Foss Cultural Centre hall">
+          <img src="https://res.cloudinary.com/dnkfg07ov/image/upload/v1773917779/spectacular_bespoke_chandelier_in_a_restaurant_hzyo3z.jpg" alt="Foss Cultural Centre hall" loading="lazy">
         </div>
         <div class="gallery-item">
-          <img src="https://res.cloudinary.com/dnkfg07ov/image/upload/v1773915460/download_9_krmdqv.jpg" alt="Foss Cultural Centre detail">
+          <img src="https://res.cloudinary.com/dnkfg07ov/image/upload/v1773915460/download_9_krmdqv.jpg" alt="Foss Cultural Centre detail" loading="lazy">
         </div>
       </div>
       <div class="gallery-large">
-        <img src="https://res.cloudinary.com/dnkfg07ov/image/upload/v1773919124/This_house_is_not_defined_by_what_was_added_but_by_what_was_removed__A_temple_to_absence_where_space_is_sculpted_not_filled__w8haoq.jpg" alt="Foss Cultural Centre exterior">
+        <img src="https://res.cloudinary.com/dnkfg07ov/image/upload/v1773919124/This_house_is_not_defined_by_what_was_added_but_by_what_was_removed__A_temple_to_absence_where_space_is_sculpted_not_filled__w8haoq.jpg" alt="Foss Cultural Centre exterior" loading="lazy">
       </div>
     </section>
 
@@ -129,5 +137,6 @@
     <p class="footer-copy">&copy; 2026 Halcyon Studio. All rights reserved.</p>
     <p class="footer-tagline">Space, considered.</p>
   </footer>
+<script src="../script.js"></script>
 </body>
 </html>
